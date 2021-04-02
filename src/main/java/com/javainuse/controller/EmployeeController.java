@@ -56,7 +56,7 @@ public class EmployeeController {
 	
 	/** 
 	 * GOLDEN RULE: if you throw a exception and do not catch then the exc will be propogated to calling methods and so on and finally passed to browser UI.
-	 * if you have caught it, then rethorow the same , else once catched its like neutralized and will not propogate further unless rethrown
+	 * if you have caught it, then rethrow the same , else once catched its like neutralized and will not propogate further unless rethrown
 	 * 
 	 * 
 	 * In the above method, If I am receiving any csutom exeception from called method of service, or throwinf new custom exeception 
